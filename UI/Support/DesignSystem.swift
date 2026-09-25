@@ -47,7 +47,7 @@ enum Theme {
 }
 
 /// `.symbolEffect(.pulse, isActive:)` only exists on iOS 17+, but this app's
-/// deployment target is iOS 16 (to stay installable on older personal
+/// deployment target is iOS 16 (to stay installable on older
 /// devices). This modifier gives the same "pulsing while active" look on
 /// both: the real symbol effect on 17+, a manual opacity/scale animation
 /// otherwise. Used anywhere the app wants a pulsing SF Symbol (Voice Mission
